@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SugarDispenser.Settings">
+    <ContentPage.Content>
+        <StackLayout Background="#D6EFEF">
+
+
+
+            <Label FontSize="38" FontAttributes="Bold" TextColor="Black" Margin="0,40,0,10" HorizontalTextAlignment="Center" Text="Settings"></Label>
+
+
+
+            <Label  Margin="0,50,0,0" HorizontalOptions="Center" Text="Distance sensor" TextColor="Black" FontAttributes="Bold" FontSize="24"></Label>
+            <Switch x:Name="DistanceSensorButton" Toggled="DistanceSensorToggle" OnColor="Green" ThumbColor="#065AFD" Margin="0,0,0,0" HorizontalOptions="Center"></Switch>
+
+            <Label Margin="0,50,0,0" HorizontalOptions="Center" Text="Put the ip address below" TextColor="Black" FontAttributes="Bold" FontSize="24"></Label>
+            <Label Text="To make connection with your device" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Entry x:Name="IPEntry" TextChanged="IPEntryTextChanged" TextColor="Black"></Entry>
+
+            <Label Margin="0,30,0,0" HorizontalOptions="Center" TextColor="Black" FontSize="24" FontAttributes="Bold" Text="Press this button to restart counting"></Label>
+            <Button FontAttributes="Bold" FontSize="18" TextColor="White" Text="Full store" BackgroundColor="#065AFD" HorizontalOptions="Center" CornerRadius="10" WidthRequest="400" HeightRequest="50" Margin="5,30,5,42"></Button>
+
+            <Button Clicked="Button_Clicked" ImageSource="https://cdn.discordapp.com/attachments/907969130014052357/930461009221664768/unknown.png" BackgroundColor="White" Margin="0,0,0,0" HeightRequest="70"></Button>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarDispenser.Android", "SugarDispenser\SugarDispenser.Android\SugarDispenser.Android.csproj", "{C824DE0A-2D44-4B99-B568-EA9C4BC5B23C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarDispenser", "SugarDispenser\SugarDispenser\SugarDispenser.csproj", "{64B349BE-4A3A-481E-A918-BF4DD0C96F74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C824DE0A-2D44-4B99-B568-EA9C4BC5B23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C824DE0A-2D44-4B99-B568-EA9C4BC5B23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C824DE0A-2D44-4B99-B568-EA9C4BC5B23C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C824DE0A-2D44-4B99-B568-EA9C4BC5B23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C824DE0A-2D44-4B99-B568-EA9C4BC5B23C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C824DE0A-2D44-4B99-B568-EA9C4BC5B23C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{64B349BE-4A3A-481E-A918-BF4DD0C96F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B349BE-4A3A-481E-A918-BF4DD0C96F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B349BE-4A3A-481E-A918-BF4DD0C96F74}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{64B349BE-4A3A-481E-A918-BF4DD0C96F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B349BE-4A3A-481E-A918-BF4DD0C96F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B349BE-4A3A-481E-A918-BF4DD0C96F74}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EFC970A-7D91-4FAF-BFB8-776728E3E131}
+	EndGlobalSection
+EndGlobal

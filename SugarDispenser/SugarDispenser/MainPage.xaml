@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SugarDispenser.MainPage">
+
+    <StackLayout BackgroundColor="#D6EFEF">
+
+        <Image Margin="-260,0,0,0" Source="https://cdn.discordapp.com/attachments/907969130014052357/930444325475737660/unknown.png"></Image>
+
+        <Label TextColor="Black" FontAttributes="Bold" FontSize="28" Text="There are" Margin="30,-30,0,0"></Label>
+        <Label TextColor="Green" FontAttributes="Bold" FontSize="28" Text="15" Margin="150,0,0,0"></Label>
+        <Label TextColor="Black" FontAttributes="Bold" FontSize="28" Text="Suger cubes left" Margin="190,0,0,0"></Label>
+
+        <Image Margin="0,30,0,0" Source="https://cdn.discordapp.com/attachments/907969130014052357/930440508529057833/unknown.png"></Image>
+
+        <Button Clicked="Drop_Now" TextColor="White" Text="Drop now" BackgroundColor="#065AFD" HorizontalOptions="Center" CornerRadius="10" WidthRequest="400" HeightRequest="50" Margin="5,30,5,42"></Button>
+
+        <Button Clicked="Button_Clicked" ImageSource="https://cdn.discordapp.com/attachments/907969130014052357/930447224389922846/unknown.png" BackgroundColor="White" HeightRequest="80"></Button>
+
+    </StackLayout>
+
+</ContentPage>
